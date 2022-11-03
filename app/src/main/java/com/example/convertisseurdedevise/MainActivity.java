@@ -80,7 +80,7 @@ public class MainActivity extends AppCompatActivity {
             textView.setText(String.valueOf(output));
         }
         if (toCurr == "USD"){
-            double output = euroVlaue*0.31;
+            double output = euroVlaue/0.31;
             textView.setText(String.valueOf(output));
         }
 
